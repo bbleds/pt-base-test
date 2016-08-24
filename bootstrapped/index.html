@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>testing pt</title>
+		<link rel="stylesheet" href="bootstrap.min.css" type='text/css'>
+		<link rel="stylesheet" href="app.css" type='text/css'>
+	</head>
+	<body>
+		<div id="main-container">
+				<header id="navbar" >
+					<img src="logo.png" alt="Producer&rsquo;s Tool" />
+					<nav>
+						<ul>
+							<li>
+								<a href="#">Program Schedule</a>
+							</li>
+							<li>
+								<a href="#">List View</a>
+							</li>
+							<li>
+								<a href="#">Programs</a>
+							</li>
+							<li>
+								<a href="#">File Activity</a>
+							</li>
+
+							<li id="current-upload-status" class="file-progress" style="display: none;">
+								Current File Uploading: <span class="filename"></span> <br />
+								Progress: <span class="progress"></span>%
+							</li>
+
+							<li>
+								<a class="modal-trigger" href="#color-key">Color Key</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+				<div id="content">
+					<p>Hello world</p>
+				</div>
+		</div>
+		<script type="text/javascript">
+			let nav = document.getElementById('navbar');
+			nav.style.height = `${window.innerHeight}px`;
+		</script>
+	</body>
+</html>

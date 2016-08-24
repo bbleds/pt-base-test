@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>testing pt</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type='text/css'>
+		<link rel="stylesheet" href="app.css" type='text/css'>
+	</head>
+	<body>
+		<header>
+	<img src="app://img/logo.png" alt="Producer&rsquo;s Tool" />
+	<nav>
+		<ul>
+			<li>
+				<a href="app://index.html?">Program Schedule</a>
+			</li>
+			<li>
+				<a href="app://index.html?module=Files&method=listView">List View</a>
+			</li>
+			<li>
+				<a href="app://index.html?module=Programs&method=listView">Programs</a>
+			</li>
+			<li>
+				<a href="app://index.html?module=Main&method=staticTemplate&template=support.html">File Activity</a>
+			</li>
+
+			<li id="current-upload-status" class="file-progress" style="display: none;">
+				Current File Uploading: <span class="filename"></span> <br />
+				Progress: <span class="progress"></span>%
+			</li>
+
+			<li>
+				<a class="modal-trigger" href="#color-key">Color Key</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+	</body>
+</html>
